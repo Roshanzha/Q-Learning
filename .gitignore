@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.vscode/
+.idea/
+.DS_Store
+node_modules/
+/catch_lab_preview.png
+catch-lab-q-model.json
+*.zip
+*.tar.gz
+.env
+.env.*
