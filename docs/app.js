@@ -52,4 +52,3 @@ $('reset').onclick=()=>{if(training||!confirm('Reset the learned Q-table and tra
 $('export').onclick=()=>{const blob=new Blob([JSON.stringify(agent.data(),null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='catch-lab-q-model.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
 if(agent.episodes)$('trainNote').textContent='Your saved agent is back. Ready when you are.';
 chart();ready();requestAnimationFrame(tick);
-

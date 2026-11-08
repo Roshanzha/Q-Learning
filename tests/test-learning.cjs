@@ -12,4 +12,3 @@ function evaluate(random){const e=new Environment(rng(100)),r=rng(101);let wins=
 const baseline=evaluate(true),trained=evaluate(false);assert.ok(trained>.9);assert.ok(trained>baseline+.6);
 const copy=new Agent();copy.restore(JSON.parse(JSON.stringify(agent.data())));assert.deepEqual(copy.data(),agent.data());assert.throws(()=>copy.restore({version:4}));
 console.log(`PASS: boundaries, rewards, terminal update, model round-trip. Random ${(baseline*100).toFixed(1)}%; trained ${(trained*100).toFixed(1)}%.`);
-

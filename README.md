@@ -2,6 +2,10 @@
 
 **A playable reinforcement-learning assignment: catch apples yourself, train a tabular Q-learning agent, and watch its decisions improve.**
 
+### [▶ Play the hosted game](https://roshanzha.github.io/Q-Learning/)
+
+**Live site:** https://roshanzha.github.io/Q-Learning/ · **Source:** [Roshanzha/Q-Learning](https://github.com/Roshanzha/Q-Learning)
+
 The project includes a Python/Pygame desktop game and a responsive browser game. Both implement the same environment and Q-learning update. The browser version runs entirely on the client—no server, API keys, or build step needed.
 
 ## Features
@@ -138,7 +142,7 @@ The `docs/` folder is ready for GitHub Pages:
 3. Choose branch **main** and folder **/docs**, then Save.
 4. Wait for the Pages deployment to finish, then open the URL shown in Settings.
 
-The expected project URL is `https://roshanzha.github.io/Q-Learning/`. It becomes live only after Pages is enabled and deployment succeeds.
+Pages is enabled for this repository, and the initial deployment was verified successfully. **Play at [roshanzha.github.io/Q-Learning](https://roshanzha.github.io/Q-Learning/).** Pushing updates to `main` triggers a new deployment; allow it to finish before expecting the live files to change.
 
 ### Other static hosts
 
